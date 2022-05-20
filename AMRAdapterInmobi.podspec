@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterInmobi'
-  s.version          = '10.0.2.2'
+  s.version          = '10.0.6.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK', '~> 1.5.10'
-  s.dependency 'InMobiSDK/Core', '10.0.2'
+  s.dependency 'InMobiSDK/Core', '10.0.6'
 end
