@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
-  s.dependency 'AMRSDK', '~> 1.5.10'
+  s.dependency 'AMRSDK', '~> 1.5.15'
   s.dependency 'InMobiSDK/Core', '10.0.7'
 end
