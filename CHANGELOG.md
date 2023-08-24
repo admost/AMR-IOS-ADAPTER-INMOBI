@@ -3,6 +3,10 @@
 Changelog for AMRAdapterInmobi. 
 InMobiSDK [changelog](https://support.inmobi.com/monetize/download-sdk/ios-changelogs)
 
+## [10.5.6.1] - 2023-08-24
+### Updated
+- Native banner impression issue fixed.
+
 ## [10.5.6.0] - 2023-07-11
 ### Updated
 - Offical release for InMobiSDK 10.5.6
