@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterInmobi-Beta'
-  s.version          = '10.0.7.0'
+  s.version          = '10.6.0.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -16,9 +16,10 @@ Pod::Spec.new do |s|
  								}
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform 			= :ios
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
+  s.swift_versions = ['5']
   s.vendored_frameworks = 'AMRAdapterInmobi/Libs/AMRAdapterInmobi.xcframework'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
-  s.dependency 'AMRSDK-Beta', '~> 1.5.6'
-  s.dependency 'InMobiSDK/Core', '10.0.7'
+  s.dependency 'AMRSDK-Beta', '~> 1.5.40'
+  s.dependency 'InMobiSDK', '10.6.0'
 end
