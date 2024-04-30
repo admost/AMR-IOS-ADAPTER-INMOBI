@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterInmobi-Beta'
-  s.version          = '10.7.1.0'
+  s.version          = '10.7.2.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'AMRAdapterInmobi/Libs/AMRAdapterInmobi.xcframework'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
   s.dependency 'AMRSDK-Beta', '~> 1.5.40'
-  s.dependency 'InMobiSDK', '10.7.1'
+  s.dependency 'InMobiSDK', '10.7.2'
 end
