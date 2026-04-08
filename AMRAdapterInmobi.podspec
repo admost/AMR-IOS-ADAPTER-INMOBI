@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'AMRAdapterInmobi/Libs/AMRAdapterInmobi.xcframework'
   s.pod_target_xcconfig = { 
     'OTHER_LDFLAGS' => '-ObjC -lc++',
-    "VALID_ARCHS": "arm64 armv7 x86_64",
-    'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
+    "VALID_ARCHS": "arm64 x86_64",
+    'VALID_ARCHS[sdk=iphoneos*]' => 'arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK', '~> 1.5.55'
