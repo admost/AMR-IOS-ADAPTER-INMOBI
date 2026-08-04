@@ -3,6 +3,11 @@
 Changelog for AMRAdapterInmobi. 
 InMobiSDK [changelog](https://support.inmobi.com/monetize/download-sdk/ios-changelogs)
 
+## [11.4.0] - 2026-07-10
+### Updated
+- Official release for InMobiSDK 11.4.0
+- SPM support added.
+
 ## [10.8.8.0] - 2024-09-29
 ### Updated
 - Offical release for InMobiSDK 10.8.8
