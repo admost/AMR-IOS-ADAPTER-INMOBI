@@ -3,6 +3,10 @@
 Changelog for AMRAdapterInmobi. 
 InMobiSDK [changelog](https://support.inmobi.com/monetize/download-sdk/ios-changelogs)
 
+## [11.4.1] - 2026-08-10
+### Updated
+- Official release for InMobiSDK 11.4.1
+
 ## [11.4.0] - 2026-07-10
 ### Updated
 - Official release for InMobiSDK 11.4.0
