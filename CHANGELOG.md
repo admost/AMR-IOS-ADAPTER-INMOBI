@@ -3,6 +3,10 @@
 Changelog for AMRAdapterInmobi. 
 InMobiSDK [changelog](https://support.inmobi.com/monetize/download-sdk/ios-changelogs)
 
+## [11.4.2] - 2026-09-29
+### Updated
+- Raises the minimum iOS version to 13 to match AMRSDK; fixes the SPM platform mismatch
+
 ## [11.4.1] - 2026-08-10
 ### Updated
 - Official release for InMobiSDK 11.4.1
